@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Crud</title>
+</head>
+<body>
+    <h1>Notas e Médias</h1>
+    <form action="" id="cadastro" onsubmit="return false">
+        <input type="hidden" id="idRegistro" value="">
+        <label for="nome">Nome do aluno(a): </label>
+        <input type="text" id="nome">
+        <br>
+
+        <label for="nota1">Primeira nota: </label>
+        <input type="text" id="nota1">
+        <br>
+        <label for="nota2">Segunda nota: </label>
+        <input type="text" id="nota2">
+        <br>
+        <label for="nota3">Terceira nota: </label>
+        <input type="text" id="nota3">
+        <br>
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+
+    <h2>Listagem de notas</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Notas</th>
+                <th>Média</th>
+                <th>Aprovado/Reprovado</th>
+                <th>Editar</th>
+                <th>Deletar</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
